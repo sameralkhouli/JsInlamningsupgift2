@@ -33,7 +33,7 @@ function App() {
           <CustomerDetails customer={customer} />
         </Route>
      
-        <Route path="/Home" exact component={Home} />
+        <Route path="/" exact component={Home} />
         
       </Switch>
     </BrowserRouter>
